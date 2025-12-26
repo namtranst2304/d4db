@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', sans-serif;
+  }
+
+  * {
+    @apply border-gray-200 dark:border-dark-300;
+  }
+
+  body {
+    @apply bg-white text-gray-900 dark:bg-dark-50 dark:text-dark-900;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+}
+
+@layer components {
+  /* Layout */
+  .container-custom {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500 dark:bg-primary-700 dark:hover:bg-primary-600;
+  }
+
+  .btn-secondary {
+    @apply bg-dark-300 text-white hover:bg-dark-400 focus:ring-dark-500 dark:bg-dark-400 dark:hover:bg-dark-500;
+  }
+
+  /* Form Elements */
+  .input {
+    @apply w-full rounded-lg border border-gray-300 bg-white px-4 py-2 text-gray-900 placeholder-gray-500 focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500 dark:border-dark-300 dark:bg-dark-100 dark:text-dark-900 dark:placeholder-dark-500;
+  }
+
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-gray-700 dark:text-dark-800;
+  }
+
+  /* Cards & Containers */
+  .card {
+    @apply rounded-lg border bg-white p-6 shadow-sm dark:border-dark-300 dark:bg-dark-100;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-lg transition-all duration-200;
+  }
+
+  /* Navigation Links */
+  .nav-link {
+    @apply text-sm font-medium text-gray-700 transition-colors hover:text-primary-600 dark:text-dark-800 dark:hover:text-primary-500;
+  }
+
+  .footer-link {
+    @apply text-gray-600 transition-colors hover:text-primary-600 dark:text-dark-700 dark:hover:text-primary-500;
+  }
+
+  /* Icon Buttons */
+  .icon-btn {
+    @apply rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 dark:text-dark-800 dark:hover:bg-dark-200;
+  }
+
+  /* Text Styles */
+  .text-muted {
+    @apply text-gray-600 dark:text-dark-700;
+  }
+
+  .text-body {
+    @apply text-gray-700 dark:text-dark-800;
+  }
+
+  .text-heading {
+    @apply text-gray-900 dark:text-dark-900;
+  }
+
+  .text-subtle {
+    @apply text-gray-500 dark:text-dark-600;
+  }
+
+  /* Diablo 4 Item Rarities */
+  .rarity-common {
+    @apply text-gray-500 dark:text-gray-400;
+  }
+
+  .rarity-magic {
+    @apply text-blue-500 dark:text-blue-400;
+  }
+
+  .rarity-rare {
+    @apply text-yellow-500 dark:text-yellow-400;
+  }
+
+  .rarity-legendary {
+    @apply text-orange-500 dark:text-orange-400;
+  }
+
+  .rarity-unique {
+    @apply text-purple-500 dark:text-purple-400;
+  }
+
+  /* Badges */
+  .badge {
+    @apply inline-block rounded-full px-3 py-1 text-sm font-semibold;
+  }
+
+  .badge-primary {
+    @apply badge bg-primary-100 text-primary-700 dark:bg-primary-900/20 dark:text-primary-400;
+  }
+
+  /* Dividers */
+  .divider {
+    @apply border-b pb-3 dark:border-dark-300;
+  }
+
+  .divider-last {
+    @apply border-b pb-4 last:border-0 dark:border-dark-300;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "id": "1",
+    "name": "Harlequin Crest",
+    "type": "Helm",
+    "rarity": "Unique",
+    "requiredLevel": 70,
+    "itemPower": 820,
+    "description": "Life is precious. Demons know this. Some of them even view humans as a delicacy, enhancing their power and extending their influence into Sanctuary. A demon prince, Crowned with this artifact, is a horrifying sight indeed.",
+    "affixes": [
+      {
+        "name": "Maximum Life",
+        "value": "+1000",
+        "description": "Increases your maximum Life"
+      },
+      {
+        "name": "Cooldown Reduction",
+        "value": "20%",
+        "description": "Reduces all cooldowns"
+      },
+      {
+        "name": "Resource Generation",
+        "value": "+4",
+        "description": "Increases resource generation"
+      },
+      {
+        "name": "All Stats",
+        "value": "+20",
+        "description": "Increases all core stats"
+      }
+    ],
+    "class": ["All Classes"]
+  },
+  {
+    "id": "2",
+    "name": "Doombringer",
+    "type": "Two-Handed Sword",
+    "rarity": "Unique",
+    "requiredLevel": 60,
+    "itemPower": 725,
+    "description": "The advent of Doombringer was a portent of doom. Its edge cleft armor like parchment, and its wielder cut a swath of destruction through Sanctuary. Doom to all who stood before it.",
+    "affixes": [
+      {
+        "name": "Critical Strike Damage",
+        "value": "+50%",
+        "description": "Increases your Critical Strike Damage"
+      },
+      {
+        "name": "Lucky Hit Chance",
+        "value": "+15%",
+        "description": "Increases Lucky Hit Chance"
+      },
+      {
+        "name": "Shadow Damage",
+        "value": "+25%",
+        "description": "Increases Shadow damage dealt"
+      }
+    ],
+    "class": ["Barbarian", "Necromancer"]
+  },
+  {
+    "id": "3",
+    "name": "Godslayer Crown",
+    "type": "Helm",
+    "rarity": "Legendary",
+    "requiredLevel": 50,
+    "itemPower": 650,
+    "description": "Crafted for those who dare challenge the divine, this crown amplifies the wearer's offensive capabilities to unprecedented levels.",
+    "affixes": [
+      {
+        "name": "Critical Strike Chance",
+        "value": "+8%",
+        "description": "Increases Critical Strike Chance"
+      },
+      {
+        "name": "Attack Speed",
+        "value": "+10%",
+        "description": "Increases Attack Speed"
+      },
+      {
+        "name": "Damage to Elites",
+        "value": "+15%",
+        "description": "Increases damage to Elite enemies"
+      }
+    ],
+    "class": ["All Classes"]
+  },
+  {
+    "id": "4",
+    "name": "Frostburn",
+    "type": "Gloves",
+    "rarity": "Legendary",
+    "requiredLevel": 45,
+    "itemPower": 580,
+    "description": "Gloves enchanted with the essence of eternal winter, freezing enemies with each strike.",
+    "affixes": [
+      {
+        "name": "Cold Damage",
+        "value": "+30%",
+        "description": "Increases Cold damage dealt"
+      },
+      {
+        "name": "Freeze Duration",
+        "value": "+25%",
+        "description": "Increases Freeze duration on enemies"
+      },
+      {
+        "name": "Lucky Hit: Freeze",
+        "value": "15%",
+        "description": "Lucky Hit: Up to 15% chance to Freeze"
+      }
+    ],
+    "class": ["Sorcerer", "Rogue"]
+  },
+  {
+    "id": "5",
+    "name": "Andariel's Visage",
+    "type": "Helm",
+    "rarity": "Unique",
+    "requiredLevel": 75,
+    "itemPower": 850,
+    "description": "The visage of the Maiden of Anguish, Andariel. Those who wear it feel her poisonous presence coursing through their veins.",
+    "affixes": [
+      {
+        "name": "Poison Resistance",
+        "value": "-50%",
+        "description": "Reduces Poison Resistance"
+      },
+      {
+        "name": "All Resistances",
+        "value": "+20%",
+        "description": "Increases all other Resistances"
+      },
+      {
+        "name": "Life Steal",
+        "value": "10%",
+        "description": "Gain 10% of damage dealt as Life"
+      },
+      {
+        "name": "Attack Speed",
+        "value": "+20%",
+        "description": "Increases Attack Speed"
+      }
+    ],
+    "class": ["All Classes"]
+  },
+  {
+    "id": "6",
+    "name": "Ring of Starless Skies",
+    "type": "Ring",
+    "rarity": "Unique",
+    "requiredLevel": 65,
+    "itemPower": 750,
+    "description": "They say this ring holds the power of the void itself, granting its wearer mastery over core skills and resource generation.",
+    "affixes": [
+      {
+        "name": "Core Skill Damage",
+        "value": "+40%",
+        "description": "Increases Core Skill damage"
+      },
+      {
+        "name": "Resource Cost Reduction",
+        "value": "30%",
+        "description": "Reduces resource cost of skills"
+      },
+      {
+        "name": "Maximum Resource",
+        "value": "+20",
+        "description": "Increases maximum resource"
+      }
+    ],
+    "class": ["All Classes"]
+  }
+]
