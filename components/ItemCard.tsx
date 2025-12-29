@@ -14,6 +14,7 @@ export default function ItemCard({ item }: ItemCardProps) {
     Rare: 'text-yellow-500 border-yellow-400',
     Legendary: 'text-orange-500 border-orange-400',
     Unique: 'text-purple-500 border-purple-400',
+    Mythic: 'text-red-500 border-red-400',
   }
 
   return (

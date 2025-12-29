@@ -1,0 +1,1128 @@
+[
+  {
+    "id": "echo-of-varshan",
+    "name": "Echo of Varshan",
+    "type": "Lair Boss",
+    "tier": "Initiate",
+    "location": "northern Hawezar, right next to the Tree of Whispers:The entrance to Malignant Burrow and its Dungeon MapHow To Summon VarshanPlayers can summon Varshan without the need for any boss summoning materials",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "summoningMaterials": [
+      {
+        "name": "Malignant Heart",
+        "quantity": 12
+      },
+      {
+        "name": "Living Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Distilled Fear",
+        "quantity": 12
+      },
+      {
+        "name": "Exquisite Blood",
+        "quantity": 12
+      },
+      {
+        "name": "Shard of Agony",
+        "quantity": 3
+      }
+    ],
+    "drops": [
+      {
+        "name": "Betrayer's Husk",
+        "type": "Unique"
+      },
+      {
+        "name": "Malignant Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Living Steel",
+        "type": "Unique"
+      },
+      {
+        "name": "Distilled Fear",
+        "type": "Unique"
+      },
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Judicator's Mask",
+        "type": "Unique"
+      },
+      {
+        "name": "Stygian Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "Shard of Agony",
+        "type": "Unique"
+      },
+      {
+        "name": "Pincushioned Doll",
+        "type": "Unique"
+      },
+      {
+        "name": "Abhorrent Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Elixir of Shadow Resistance II",
+        "type": "Unique"
+      },
+      {
+        "name": "Fields of Crimson",
+        "type": "Unique"
+      },
+      {
+        "name": "100,000 Steps",
+        "type": "Unique"
+      },
+      {
+        "name": "Gohr's Devastating Grips",
+        "type": "Unique"
+      },
+      {
+        "name": "Ring of Red Furor",
+        "type": "Unique"
+      },
+      {
+        "name": "Sabre of Tsasgal",
+        "type": "Unique"
+      },
+      {
+        "name": "Rotting Lightbringer",
+        "type": "Unique"
+      },
+      {
+        "name": "Mad Wolf's Glee",
+        "type": "Unique"
+      },
+      {
+        "name": "Vasily's Prayer",
+        "type": "Unique"
+      },
+      {
+        "name": "Greatstaff of the Crone",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/world-boss-echo-of-varshan"
+  },
+  {
+    "id": "grigoire-the-galvanic-saint",
+    "name": "Grigoire, the Galvanic Saint",
+    "type": "Lair Boss",
+    "tier": "Initiate",
+    "location": "Dry Steppes, just south of its capital, Ked Bardu:The entrance to Hall of the Penitent and its Dungeon MapGrigoire Loot TableIn Torment 1 and Torment 2, the first Unique Item from Grigoire's Hoard comes from their Unique loot table",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "summoningMaterials": [
+      {
+        "name": "Living Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Malignant Heart",
+        "quantity": 12
+      },
+      {
+        "name": "Distilled Fear",
+        "quantity": 12
+      },
+      {
+        "name": "Exquisite Blood",
+        "quantity": 12
+      },
+      {
+        "name": "Shard of Agony",
+        "quantity": 3
+      }
+    ],
+    "drops": [
+      {
+        "name": "Twin Strikes",
+        "type": "Unique"
+      },
+      {
+        "name": "Rage of Harrogath",
+        "type": "Unique"
+      },
+      {
+        "name": "Battle Trance",
+        "type": "Unique"
+      },
+      {
+        "name": "Unbroken Chain",
+        "type": "Unique"
+      },
+      {
+        "name": "The Butcher's Cleaver",
+        "type": "Unique"
+      },
+      {
+        "name": "Earthbreaker",
+        "type": "Unique"
+      },
+      {
+        "name": "Hunter's Zenith",
+        "type": "Unique"
+      },
+      {
+        "name": "Insatiable Fury",
+        "type": "Unique"
+      },
+      {
+        "name": "Khamsin Steppewalkers",
+        "type": "Unique"
+      },
+      {
+        "name": "Waxing Gibbous",
+        "type": "Unique"
+      },
+      {
+        "name": "Ebonpiercer",
+        "type": "Unique"
+      },
+      {
+        "name": "Howl from Below",
+        "type": "Unique"
+      },
+      {
+        "name": "Greaves of the Empty Tomb",
+        "type": "Unique"
+      },
+      {
+        "name": "Path of Trag'Oul",
+        "type": "Unique"
+      },
+      {
+        "name": "Arcadia",
+        "type": "Unique"
+      },
+      {
+        "name": "Argent Veil",
+        "type": "Unique"
+      },
+      {
+        "name": "Bastion of Sir Matthias",
+        "type": "Unique"
+      },
+      {
+        "name": "Dawnfire",
+        "type": "Unique"
+      },
+      {
+        "name": "Gate of the Red Dawn",
+        "type": "Unique"
+      },
+      {
+        "name": "Light's Rebuke",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/world-boss-grigoire-the-galvanic-saint"
+  },
+  {
+    "id": "the-beast-in-the-ice",
+    "name": "The Beast in the Ice",
+    "type": "Lair Boss",
+    "tier": "Initiate",
+    "location": "Desolate Highlands, Fractured Peaks, south of Kyovashad",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "summoningMaterials": [
+      {
+        "name": "Distilled Fear",
+        "quantity": 12
+      },
+      {
+        "name": "Malignant Heart",
+        "quantity": 12
+      },
+      {
+        "name": "Living Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Exquisite Blood",
+        "quantity": 12
+      },
+      {
+        "name": "Shard of Agony",
+        "quantity": 3
+      }
+    ],
+    "drops": [
+      {
+        "name": "Betrayer's Husk",
+        "type": "Unique"
+      },
+      {
+        "name": "Distilled Fear",
+        "type": "Unique"
+      },
+      {
+        "name": "Malignant Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Living Steel",
+        "type": "Unique"
+      },
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Judicator's Mask",
+        "type": "Unique"
+      },
+      {
+        "name": "Stygian Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "Shard of Agony",
+        "type": "Unique"
+      },
+      {
+        "name": "Pincushioned Doll",
+        "type": "Unique"
+      },
+      {
+        "name": "Abhorrent Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Elixir of Cold Resistance II",
+        "type": "Unique"
+      },
+      {
+        "name": "Hooves of the Mountain God",
+        "type": "Unique"
+      },
+      {
+        "name": "Ancients' Oath",
+        "type": "Unique"
+      },
+      {
+        "name": "Hellhammer",
+        "type": "Unique"
+      },
+      {
+        "name": "Ring of the Ravenous",
+        "type": "Unique"
+      },
+      {
+        "name": "Mantle of Mountain's Fury",
+        "type": "Unique"
+      },
+      {
+        "name": "Storm's Companion",
+        "type": "Unique"
+      },
+      {
+        "name": "Unsung Ascetic's Wraps",
+        "type": "Unique"
+      },
+      {
+        "name": "Stone of Vehemen",
+        "type": "Unique"
+      },
+      {
+        "name": "Gathlen's Birthright",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/world-boss-beast-in-ice"
+  },
+  {
+    "id": "lord-zir",
+    "name": "Lord Zir",
+    "type": "Lair Boss",
+    "tier": "Initiate",
+    "location": "Fractured Peaks, just east of its capital, Kyovashad:The entrance to The Darkened Way and the Ancients' Seat Dungeon MapHow To Summon Lord ZirPlayers can summon Lord Zir without the need for any boss summoning materials",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "summoningMaterials": [
+      {
+        "name": "Exquisite Blood",
+        "quantity": 12
+      },
+      {
+        "name": "Malignant Heart",
+        "quantity": 12
+      },
+      {
+        "name": "Living Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Distilled Fear",
+        "quantity": 12
+      },
+      {
+        "name": "Shard of Agony",
+        "quantity": 3
+      }
+    ],
+    "drops": [
+      {
+        "name": "Betrayer's Husk",
+        "type": "Unique"
+      },
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Malignant Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Living Steel",
+        "type": "Unique"
+      },
+      {
+        "name": "Distilled Fear",
+        "type": "Unique"
+      },
+      {
+        "name": "Judicator's Mask",
+        "type": "Unique"
+      },
+      {
+        "name": "Stygian Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "Shard of Agony",
+        "type": "Unique"
+      },
+      {
+        "name": "Pincushioned Doll",
+        "type": "Unique"
+      },
+      {
+        "name": "Abhorrent Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Elixir of Shadow Resistance II",
+        "type": "Unique"
+      },
+      {
+        "name": "Arreat's Bearing",
+        "type": "Unique"
+      },
+      {
+        "name": "Chainscourged Mail",
+        "type": "Unique"
+      },
+      {
+        "name": "Overkill",
+        "type": "Unique"
+      },
+      {
+        "name": "Ramaladni's Magnum Opus",
+        "type": "Unique"
+      },
+      {
+        "name": "Ugly Bastard Helm",
+        "type": "Unique"
+      },
+      {
+        "name": "Wildheart Hunger",
+        "type": "Unique"
+      },
+      {
+        "name": "Fleshrender",
+        "type": "Unique"
+      },
+      {
+        "name": "Mjölnic Ryng",
+        "type": "Unique"
+      },
+      {
+        "name": "Malefic Crescent",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/world-boss-lord-zir"
+  },
+  {
+    "id": "urivar",
+    "name": "Urivar",
+    "type": "Lair Boss",
+    "tier": "Initiate",
+    "location": "the Teganze Plateau subzone of Nahantu, next to the Kichuk Waypoint and Stronghold in the far east",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "summoningMaterials": [
+      {
+        "name": "Malignant Heart",
+        "quantity": 12
+      },
+      {
+        "name": "Living Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Distilled Fear",
+        "quantity": 12
+      },
+      {
+        "name": "Exquisite Blood",
+        "quantity": 12
+      },
+      {
+        "name": "Shard of Agony",
+        "quantity": 3
+      }
+    ],
+    "drops": [
+      {
+        "name": "Betrayer's Husk",
+        "type": "Unique"
+      },
+      {
+        "name": "Judicator's Mask",
+        "type": "Unique"
+      },
+      {
+        "name": "Malignant Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Living Steel",
+        "type": "Unique"
+      },
+      {
+        "name": "Distilled Fear",
+        "type": "Unique"
+      },
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Stygian Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "Shard of Agony",
+        "type": "Unique"
+      },
+      {
+        "name": "Pincushioned Doll",
+        "type": "Unique"
+      },
+      {
+        "name": "Abhorrent Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Elixir of Fire Resistance II",
+        "type": "Unique"
+      },
+      {
+        "name": "Hooves of the Mountain God",
+        "type": "Unique"
+      },
+      {
+        "name": "Overkill",
+        "type": "Unique"
+      },
+      {
+        "name": "Twin Strikes",
+        "type": "Unique"
+      },
+      {
+        "name": "100,000 Steps",
+        "type": "Unique"
+      },
+      {
+        "name": "Ring of the Ravenous",
+        "type": "Unique"
+      },
+      {
+        "name": "Rotting Lightbringer",
+        "type": "Unique"
+      },
+      {
+        "name": "Gathlen's Birthright",
+        "type": "Unique"
+      },
+      {
+        "name": "Storm's Companion",
+        "type": "Unique"
+      },
+      {
+        "name": "Malefic Crescent",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/zones/urivar-boss-guide"
+  },
+  {
+    "id": "duriel-king-of-maggots",
+    "name": "Duriel, King of Maggots",
+    "type": "Lair Boss",
+    "tier": "Greater",
+    "location": "southern Kehjistan, right next to its capital, Gea Kul:The entrance to Gaping Crevasse and its Dungeon MapHow To Summon DurielPlayers can summon Duriel without the need for any boss summoning materials",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "summoningMaterials": [
+      {
+        "name": "Shard of Agony",
+        "quantity": 3
+      },
+      {
+        "name": "Malignant Heart",
+        "quantity": 12
+      },
+      {
+        "name": "Living Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Distilled Fear",
+        "quantity": 12
+      },
+      {
+        "name": "Exquisite Blood",
+        "quantity": 12
+      }
+    ],
+    "drops": [
+      {
+        "name": "Betrayer's Husk",
+        "type": "Unique"
+      },
+      {
+        "name": "Shard of Agony",
+        "type": "Unique"
+      },
+      {
+        "name": "Malignant Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Living Steel",
+        "type": "Unique"
+      },
+      {
+        "name": "Distilled Fear",
+        "type": "Unique"
+      },
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Judicator's Mask",
+        "type": "Unique"
+      },
+      {
+        "name": "Stygian Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "Pincushioned Doll",
+        "type": "Unique"
+      },
+      {
+        "name": "Abhorrent Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Elixir of Poison Resistance II",
+        "type": "Unique"
+      },
+      {
+        "name": "The Third Blade",
+        "type": "Unique"
+      },
+      {
+        "name": "Tuskhelm of Joritz the Mighty",
+        "type": "Unique"
+      },
+      {
+        "name": "Tempest Roar",
+        "type": "Unique"
+      },
+      {
+        "name": "Dolmen Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "The Hand of Naz",
+        "type": "Unique"
+      },
+      {
+        "name": "Blood Moon Breeches",
+        "type": "Unique"
+      },
+      {
+        "name": "Gate of the Red Dawn",
+        "type": "Unique"
+      },
+      {
+        "name": "Griswold's Opus",
+        "type": "Unique"
+      },
+      {
+        "name": "Herald of Zakarum",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/zones/uber-duriel-boss-guide"
+  },
+  {
+    "id": "andariel-maiden-of-anguish",
+    "name": "Andariel, Maiden of Anguish",
+    "type": "Lair Boss",
+    "tier": "Greater",
+    "location": "eastern Kehjistan, right next to the Tarsarak waypoint:The entrance to Hanged Man's Hall and its Dungeon MapHow To Summon AndarielPlayers can summon Andariel without the need for any boss summoning materials",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "summoningMaterials": [
+      {
+        "name": "Malignant Heart",
+        "quantity": 12
+      },
+      {
+        "name": "Living Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Distilled Fear",
+        "quantity": 12
+      },
+      {
+        "name": "Exquisite Blood",
+        "quantity": 12
+      },
+      {
+        "name": "Shard of Agony",
+        "quantity": 3
+      }
+    ],
+    "drops": [
+      {
+        "name": "Betrayer's Husk",
+        "type": "Unique"
+      },
+      {
+        "name": "Pincushioned Doll",
+        "type": "Unique"
+      },
+      {
+        "name": "Malignant Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Living Steel",
+        "type": "Unique"
+      },
+      {
+        "name": "Distilled Fear",
+        "type": "Unique"
+      },
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Judicator's Mask",
+        "type": "Unique"
+      },
+      {
+        "name": "Stygian Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "Shard of Agony",
+        "type": "Unique"
+      },
+      {
+        "name": "Abhorrent Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Soothing Spices",
+        "type": "Unique"
+      },
+      {
+        "name": "Bane of Ahjad-Den",
+        "type": "Unique"
+      },
+      {
+        "name": "Tuskhelm of Joritz the Mighty",
+        "type": "Unique"
+      },
+      {
+        "name": "The Basilisk",
+        "type": "Unique"
+      },
+      {
+        "name": "Dolmen Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "Black River",
+        "type": "Unique"
+      },
+      {
+        "name": "Blood Moon Breeches",
+        "type": "Unique"
+      },
+      {
+        "name": "Gate of the Red Dawn",
+        "type": "Unique"
+      },
+      {
+        "name": "Griswold's Opus",
+        "type": "Unique"
+      },
+      {
+        "name": "Herald of Zakarum",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/zones/world-boss-uber-andariel"
+  },
+  {
+    "id": "harbinger-of-hatred",
+    "name": "Harbinger of Hatred",
+    "type": "Lair Boss",
+    "tier": "Greater",
+    "location": "the Lingering Hatred subzone of Nahantu, northwest of its capital, Kurast Bazaar",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "summoningMaterials": [
+      {
+        "name": "Malignant Heart",
+        "quantity": 12
+      },
+      {
+        "name": "Living Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Distilled Fear",
+        "quantity": 12
+      },
+      {
+        "name": "Exquisite Blood",
+        "quantity": 12
+      },
+      {
+        "name": "Shard of Agony",
+        "quantity": 3
+      }
+    ],
+    "drops": [
+      {
+        "name": "Betrayer's Husk",
+        "type": "Unique"
+      },
+      {
+        "name": "Abhorrent Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Malignant Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Living Steel",
+        "type": "Unique"
+      },
+      {
+        "name": "Distilled Fear",
+        "type": "Unique"
+      },
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Judicator's Mask",
+        "type": "Unique"
+      },
+      {
+        "name": "Stygian Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "Shard of Agony",
+        "type": "Unique"
+      },
+      {
+        "name": "Pincushioned Doll",
+        "type": "Unique"
+      },
+      {
+        "name": "Soothing Spices",
+        "type": "Unique"
+      },
+      {
+        "name": "The Third Blade",
+        "type": "Unique"
+      },
+      {
+        "name": "Bane of Ahjad-Den",
+        "type": "Unique"
+      },
+      {
+        "name": "Tempest Roar",
+        "type": "Unique"
+      },
+      {
+        "name": "The Basilisk",
+        "type": "Unique"
+      },
+      {
+        "name": "The Hand of Naz",
+        "type": "Unique"
+      },
+      {
+        "name": "Black River",
+        "type": "Unique"
+      },
+      {
+        "name": "Gate of the Red Dawn",
+        "type": "Unique"
+      },
+      {
+        "name": "Griswold's Opus",
+        "type": "Unique"
+      },
+      {
+        "name": "Herald of Zakarum",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/zones/harbinger-of-hatred-boss-guide"
+  },
+  {
+    "id": "belial-lord-of-lies",
+    "name": "Belial, Lord of Lies",
+    "type": "Lair Boss",
+    "tier": "Exalted",
+    "location": "the Amber Sands subzone of northern Kehjistan, just west of the Tarsarak Waypoint",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "summoningMaterials": [
+      {
+        "name": "Malignant Heart",
+        "quantity": 12
+      },
+      {
+        "name": "Living Steel",
+        "quantity": 12
+      },
+      {
+        "name": "Distilled Fear",
+        "quantity": 12
+      },
+      {
+        "name": "Exquisite Blood",
+        "quantity": 12
+      },
+      {
+        "name": "Shard of Agony",
+        "quantity": 3
+      }
+    ],
+    "drops": [
+      {
+        "name": "Betrayer's Husk",
+        "type": "Unique"
+      },
+      {
+        "name": "Malignant Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Living Steel",
+        "type": "Unique"
+      },
+      {
+        "name": "Distilled Fear",
+        "type": "Unique"
+      },
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Judicator's Mask",
+        "type": "Unique"
+      },
+      {
+        "name": "Stygian Stone",
+        "type": "Unique"
+      },
+      {
+        "name": "Shard of Agony",
+        "type": "Unique"
+      },
+      {
+        "name": "Pincushioned Doll",
+        "type": "Unique"
+      },
+      {
+        "name": "Abhorrent Heart",
+        "type": "Unique"
+      },
+      {
+        "name": "Elixir of Poison Resistance II",
+        "type": "Unique"
+      },
+      {
+        "name": "Doombringer",
+        "type": "Unique"
+      },
+      {
+        "name": "Shattered Vow",
+        "type": "Unique"
+      },
+      {
+        "name": "The Grandfather",
+        "type": "Unique"
+      },
+      {
+        "name": "Ahavarion, Spear of Lycander",
+        "type": "Unique"
+      },
+      {
+        "name": "Nesekem, the Herald",
+        "type": "Unique"
+      },
+      {
+        "name": "Andariel's Visage",
+        "type": "Unique"
+      },
+      {
+        "name": "Harlequin Crest",
+        "type": "Unique"
+      },
+      {
+        "name": "Heir of Perdition",
+        "type": "Unique"
+      },
+      {
+        "name": "Melted Heart of Selig",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/zones/belial-boss-guide"
+  },
+  {
+    "id": "echo-of-lilith",
+    "name": "Echo of Lilith",
+    "type": "Pinnacle Boss",
+    "location": "southwestern Fractured Peaks, right next to the Nevesk waypoint:The entrance to Echo of Hatred and its Dungeon MapGuaranteed Resplendent Spark for Mythic Unique CraftingUber Lilith will drop a  Resplendent Spark when defeated for the first time each season",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "drops": [
+      {
+        "name": "Resplendent Spark",
+        "type": "Unique"
+      },
+      {
+        "name": "Elixir of Shadow Resistance II",
+        "type": "Unique"
+      },
+      {
+        "name": "Reins of the Bloody Liquid Steed",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/zones/world-boss-uber-lilith-echo-of-lilith"
+  },
+  {
+    "id": "ashava-the-pestilent",
+    "name": "Ashava, the Pestilent",
+    "type": "World Boss",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "drops": [
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Tribute of Radiance",
+        "type": "Unique"
+      },
+      {
+        "name": "Tribute of Ascendance",
+        "type": "Unique"
+      },
+      {
+        "name": "Scattered Prism",
+        "type": "Unique"
+      },
+      {
+        "name": "Ashava's Spoils",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/zones/ashava-pestilent-world-boss"
+  },
+  {
+    "id": "avarice-the-gold-cursed",
+    "name": "Avarice, the Gold Cursed",
+    "type": "World Boss",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "drops": [
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Tribute of Radiance",
+        "type": "Unique"
+      },
+      {
+        "name": "Tribute of Ascendance",
+        "type": "Unique"
+      },
+      {
+        "name": "Scattered Prism",
+        "type": "Unique"
+      },
+      {
+        "name": "Avarice's Spoils",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/zones/avarice-gold-cursed-world-boss"
+  },
+  {
+    "id": "wandering-death",
+    "name": "Wandering Death",
+    "type": "World Boss",
+    "description": "The Wowhead Client is a little application we use to keep our database up to date, and to provide you with some nifty extra functionality on the website!",
+    "drops": [
+      {
+        "name": "Exquisite Blood",
+        "type": "Unique"
+      },
+      {
+        "name": "Tribute of Radiance",
+        "type": "Unique"
+      },
+      {
+        "name": "Tribute of Ascendance",
+        "type": "Unique"
+      },
+      {
+        "name": "Scattered Prism",
+        "type": "Unique"
+      },
+      {
+        "name": "Wandering Death's Spoils",
+        "type": "Unique"
+      }
+    ],
+    "guideUrl": "https://www.wowhead.com/diablo-4/guide/zones/wandering-death-world-boss"
+  }
+]

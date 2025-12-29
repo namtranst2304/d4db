@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
 import Link from 'next/link'
 import Button from '@/components/ui/Button'
-import { getItemById } from '@/lib/services/api'
+import { getRarityColor } from '@/lib/utils/d4'
 import type { D4Item } from '@/types'
 
 export default function ItemDetailPage() {
@@ -18,9 +18,19 @@ export default function ItemDetailPage() {
   useEffect(() => {
     const fetchItem = async () => {
       try {
-        const data = await getItemById(itemId)
-        if (data) {
-          setItem(data)
+        setIsLoading(true)
+        const response = await fetch('/data/items.json')
+        
+        if (!response.ok) {
+          throw new Error('Failed to fetch items')
+        }
+        
+        const items: D4Item[] = await response.json()
+        const foundItem = items.find(i => i.id === itemId && i.name)
+        
+        if (foundItem) {
+          setItem(foundItem)
+          setError(null)
         } else {
           setError('Item not found')
         }
@@ -90,7 +100,7 @@ export default function ItemDetailPage() {
           <div className="card">
             <div className="flex items-start justify-between">
               <div>
-                <span className={`badge ${rarityColors[item.rarity]}`}>
+                <span className={`inline-block px-3 py-1 rounded-full text-sm font-semibold ${getRarityColor(item.rarity)}`}>
                   {item.rarity}
                 </span>
                 <h1 className="mt-4 text-4xl font-bold text-heading">
@@ -172,9 +182,7 @@ export default function ItemDetailPage() {
                 <span className="text-gray-600 dark:text-dark-700">
                   Rarity
                 </span>
-                <span
-                  className={`font-bold ${rarityColors[item.rarity].split(' ')[0]}`}
-                >
+                <span className={`font-bold ${getRarityColor(item.rarity).split(' ')[0]}`}>
                   {item.rarity}
                 </span>
               </div>

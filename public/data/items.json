@@ -1,174 +1,344 @@
 [
   {
     "id": "1",
-    "name": "Harlequin Crest",
-    "type": "Helm",
-    "rarity": "Unique",
-    "requiredLevel": 70,
-    "itemPower": 820,
-    "description": "Life is precious. Demons know this. Some of them even view humans as a delicacy, enhancing their power and extending their influence into Sanctuary. A demon prince, Crowned with this artifact, is a horrifying sight indeed.",
+    "name": "The Grandfather",
+    "type": "Two-Handed Sword",
+    "category": "Weapons",
+    "slot": "Two-Hand",
+    "rarity": "Mythic",
+    "requiredLevel": 85,
+    "itemPower": 925,
+    "description": "Despair loomed over the first man as he faced death. Then, for an instant, there was clarity - a feeling that all would be well. His sword fell to the ground and the light in his eyes faded. So ended the first grandfather. The end gave birth to the beginning.",
     "affixes": [
-      {
-        "name": "Maximum Life",
-        "value": "+1000",
-        "description": "Increases your maximum Life"
-      },
-      {
-        "name": "Cooldown Reduction",
-        "value": "20%",
-        "description": "Reduces all cooldowns"
-      },
-      {
-        "name": "Resource Generation",
-        "value": "+4",
-        "description": "Increases resource generation"
-      },
-      {
-        "name": "All Stats",
-        "value": "+20",
-        "description": "Increases all core stats"
-      }
+      { "name": "Critical Strike Damage", "value": "+91%", "description": "Increases Critical Strike Damage", "type": "Offensive" },
+      { "name": "Maximum Life", "value": "+2800", "description": "Increases maximum Life", "type": "Defensive" },
+      { "name": "All Stats", "value": "+38", "description": "Increases all core stats", "type": "Offensive" },
+      { "name": "Damage to Injured Enemies", "value": "+73%", "description": "Deal increased damage to injured enemies", "type": "Offensive" }
     ],
-    "class": ["All Classes"]
+    "class": ["Barbarian", "Necromancer"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/05/grandfather-icon-diablo-4.webp"
   },
   {
     "id": "2",
-    "name": "Doombringer",
-    "type": "Two-Handed Sword",
-    "rarity": "Unique",
-    "requiredLevel": 60,
-    "itemPower": 725,
-    "description": "The advent of Doombringer was a portent of doom. Its edge cleft armor like parchment, and its wielder cut a swath of destruction through Sanctuary. Doom to all who stood before it.",
+    "name": "Ahavarion, Spear of Lycander",
+    "type": "Staff",
+    "category": "Weapons",
+    "slot": "Two-Hand",
+    "rarity": "Mythic",
+    "requiredLevel": 85,
+    "itemPower": 925,
+    "description": "Lycander saw himself atop a ruthless and immortal empire, subjugating all. His greed for power led him to create this magnificent spear, infused with the essence of vampirism.",
     "affixes": [
-      {
-        "name": "Critical Strike Damage",
-        "value": "+50%",
-        "description": "Increases your Critical Strike Damage"
-      },
-      {
-        "name": "Lucky Hit Chance",
-        "value": "+15%",
-        "description": "Increases Lucky Hit Chance"
-      },
-      {
-        "name": "Shadow Damage",
-        "value": "+25%",
-        "description": "Increases Shadow damage dealt"
-      }
+      { "name": "Lucky Hit: Up to a 7% Chance to Cast a Random Skill", "value": "7%", "description": "Lucky Hit chance to cast Fireball, Ice Spikes, Meteor, Lightning Spear, or Ball Lightning", "type": "Utility" },
+      { "name": "Maximum Mana", "value": "+600", "description": "Increases maximum Mana", "type": "Resource" },
+      { "name": "Critical Strike Chance", "value": "+11%", "description": "Increases Critical Strike Chance", "type": "Offensive" },
+      { "name": "Cooldown Reduction", "value": "18%", "description": "Reduces all cooldowns", "type": "Utility" }
     ],
-    "class": ["Barbarian", "Necromancer"]
+    "class": ["Sorcerer", "Druid"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/05/ahavarion-spear-of-lycander-icon-diablo-4.webp"
   },
   {
     "id": "3",
-    "name": "Godslayer Crown",
+    "name": "Andariel's Visage",
     "type": "Helm",
-    "rarity": "Legendary",
-    "requiredLevel": 50,
-    "itemPower": 650,
-    "description": "Crafted for those who dare challenge the divine, this crown amplifies the wearer's offensive capabilities to unprecedented levels.",
+    "category": "Armor",
+    "slot": "Helm",
+    "rarity": "Mythic",
+    "requiredLevel": 85,
+    "itemPower": 925,
+    "description": "The Maiden of Anguish's twisted visage. Those who wear it feel her poisonous essence coursing through their veins, bringing both torment and terrible power.",
     "affixes": [
-      {
-        "name": "Critical Strike Chance",
-        "value": "+8%",
-        "description": "Increases Critical Strike Chance"
-      },
-      {
-        "name": "Attack Speed",
-        "value": "+10%",
-        "description": "Increases Attack Speed"
-      },
-      {
-        "name": "Damage to Elites",
-        "value": "+15%",
-        "description": "Increases damage to Elite enemies"
-      }
+      { "name": "Attack Speed", "value": "+22%", "description": "Increases Attack Speed", "type": "Offensive" },
+      { "name": "Life Steal", "value": "12%", "description": "Gain Life for each enemy hit", "type": "Defensive" },
+      { "name": "All Resistances", "value": "+40%", "description": "Increases all Resistances except Poison", "type": "Defensive" },
+      { "name": "Poison Resistance", "value": "-75%", "description": "Reduces Poison Resistance", "type": "Defensive" }
     ],
-    "class": ["All Classes"]
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/05/andariels-visage-icon-diablo-4.webp"
   },
   {
     "id": "4",
-    "name": "Frostburn",
-    "type": "Gloves",
-    "rarity": "Legendary",
-    "requiredLevel": 45,
-    "itemPower": 580,
-    "description": "Gloves enchanted with the essence of eternal winter, freezing enemies with each strike.",
+    "name": "Melted Heart of Selig",
+    "type": "Amulet",
+    "category": "Armor",
+    "slot": "Amulet",
+    "rarity": "Mythic",
+    "requiredLevel": 85,
+    "itemPower": 925,
+    "description": "My life will be a gift to the world. - Selig's final words. His heart was melted down and shaped into this amulet, imbued with powerful protective magic.",
     "affixes": [
-      {
-        "name": "Cold Damage",
-        "value": "+30%",
-        "description": "Increases Cold damage dealt"
-      },
-      {
-        "name": "Freeze Duration",
-        "value": "+25%",
-        "description": "Increases Freeze duration on enemies"
-      },
-      {
-        "name": "Lucky Hit: Freeze",
-        "value": "15%",
-        "description": "Lucky Hit: Up to 15% chance to Freeze"
-      }
+      { "name": "Maximum Resource", "value": "+45", "description": "Increases maximum Resource", "type": "Resource" },
+      { "name": "Resource Generation", "value": "+17%", "description": "Increases Resource generation", "type": "Resource" },
+      { "name": "All Resistances", "value": "+36%", "description": "Increases all Resistances", "type": "Defensive" },
+      { "name": "Damage while Healthy", "value": "+39%", "description": "Gain damage bonus while at full Health", "type": "Offensive" }
     ],
-    "class": ["Sorcerer", "Rogue"]
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/05/melted-heart-of-selig-icon-diablo-4.webp"
   },
   {
     "id": "5",
-    "name": "Andariel's Visage",
-    "type": "Helm",
-    "rarity": "Unique",
-    "requiredLevel": 75,
-    "itemPower": 850,
-    "description": "The visage of the Maiden of Anguish, Andariel. Those who wear it feel her poisonous presence coursing through their veins.",
+    "name": "Ring of Starless Skies",
+    "type": "Ring",
+    "category": "Armor",
+    "slot": "Ring",
+    "rarity": "Mythic",
+    "requiredLevel": 85,
+    "itemPower": 925,
+    "description": "In the darkness between stars, power beyond comprehension waits. This ring channels that void, granting mastery over core skills.",
     "affixes": [
-      {
-        "name": "Poison Resistance",
-        "value": "-50%",
-        "description": "Reduces Poison Resistance"
-      },
-      {
-        "name": "All Resistances",
-        "value": "+20%",
-        "description": "Increases all other Resistances"
-      },
-      {
-        "name": "Life Steal",
-        "value": "10%",
-        "description": "Gain 10% of damage dealt as Life"
-      },
-      {
-        "name": "Attack Speed",
-        "value": "+20%",
-        "description": "Increases Attack Speed"
-      }
+      { "name": "Core Skill Damage", "value": "+52%", "description": "Increases Core Skill damage", "type": "Offensive" },
+      { "name": "Resource Cost Reduction", "value": "35%", "description": "Reduces resource cost of Core Skills", "type": "Resource" },
+      { "name": "Maximum Resource", "value": "+35", "description": "Increases maximum Resource", "type": "Resource" },
+      { "name": "Critical Strike Chance", "value": "+8%", "description": "Increases Critical Strike Chance", "type": "Offensive" }
     ],
-    "class": ["All Classes"]
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/05/ring-of-starless-skies-icon-diablo-4.webp"
   },
   {
     "id": "6",
-    "name": "Ring of Starless Skies",
+    "name": "Shako (Harlequin Crest)",
+    "type": "Helm",
+    "category": "Armor",
+    "slot": "Helm",
+    "rarity": "Mythic",
+    "requiredLevel": 85,
+    "itemPower": 925,
+    "description": "A demon prince crowned with this artifact is a horrifying sight. The Harlequin Crest grants immense power to those who dare wear it.",
+    "affixes": [
+      { "name": "Maximum Life", "value": "+3200", "description": "Increases maximum Life", "type": "Defensive" },
+      { "name": "Cooldown Reduction", "value": "25%", "description": "Reduces all cooldowns", "type": "Utility" },
+      { "name": "Resource Generation", "value": "+8", "description": "Increases resource generation", "type": "Resource" },
+      { "name": "All Stats", "value": "+38", "description": "Increases all core stats", "type": "Offensive" }
+    ],
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/05/harlequin-crest-icon-diablo-4.webp"
+  },
+  {
+    "id": "7",
+    "name": "Tyrael's Might",
+    "type": "Chest Armor",
+    "category": "Armor",
+    "slot": "Chest",
+    "rarity": "Mythic",
+    "requiredLevel": 85,
+    "itemPower": 925,
+    "description": "The armor of the Archangel of Justice. Wearing it grants divine protection and the fury of the heavens.",
+    "affixes": [
+      { "name": "Maximum Life", "value": "+4200", "description": "Increases maximum Life", "type": "Defensive" },
+      { "name": "All Resistances", "value": "+45%", "description": "Increases all Resistances", "type": "Defensive" },
+      { "name": "Damage Reduction", "value": "18%", "description": "Reduces all damage taken", "type": "Defensive" },
+      { "name": "Movement Speed", "value": "+12%", "description": "Increases Movement Speed", "type": "Utility" }
+    ],
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/05/tyraels-might-icon-diablo-4.webp"
+  },
+  {
+    "id": "8",
+    "name": "Godslayer Crown",
+    "type": "Helm",
+    "category": "Armor",
+    "slot": "Helm",
+    "rarity": "Unique",
+    "requiredLevel": 60,
+    "itemPower": 780,
+    "description": "Forged to slay divine beings, this crown channels the rage of mortals who dared challenge the gods.",
+    "affixes": [
+      { "name": "Critical Strike Chance", "value": "+13%", "description": "Increases Critical Strike Chance", "type": "Offensive" },
+      { "name": "Attack Speed", "value": "+18%", "description": "Increases Attack Speed", "type": "Offensive" },
+      { "name": "Damage to Elites", "value": "+24%", "description": "Increases damage to Elite enemies", "type": "Offensive" },
+      { "name": "Maximum Life", "value": "+1800", "description": "Increases maximum Life", "type": "Defensive" }
+    ],
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/godslayer-crown-icon-diablo-4.webp"
+  },
+  {
+    "id": "9",
+    "name": "Fists of Fate",
+    "type": "Gloves",
+    "category": "Armor",
+    "slot": "Gloves",
+    "rarity": "Unique",
+    "requiredLevel": 62,
+    "itemPower": 750,
+    "description": "These gloves have witnessed countless battles. Each strike carries the weight of destiny.",
+    "affixes": [
+      { "name": "Attack Speed", "value": "+16%", "description": "Increases Attack Speed", "type": "Offensive" },
+      { "name": "Lucky Hit Chance", "value": "+18%", "description": "Increases Lucky Hit Chance", "type": "Utility" },
+      { "name": "Critical Strike Damage", "value": "+45%", "description": "Increases Critical Strike Damage", "type": "Offensive" },
+      { "name": "Lucky Hit: Heal for 500 Life", "value": "25%", "description": "Lucky Hit chance to restore Life", "type": "Defensive" }
+    ],
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/fists-of-fate-icon-diablo-4.webp"
+  },
+  {
+    "id": "10",
+    "name": "Temerity",
+    "type": "Pants",
+    "category": "Armor",
+    "slot": "Pants",
+    "rarity": "Unique",
+    "requiredLevel": 68,
+    "itemPower": 790,
+    "description": "Audacious courage flows through these pants, granting the wearer unprecedented resilience.",
+    "affixes": [
+      { "name": "Maximum Life", "value": "+2400", "description": "Increases maximum Life", "type": "Defensive" },
+      { "name": "Healing Received", "value": "+35%", "description": "Increases all healing received", "type": "Defensive" },
+      { "name": "Potion Capacity", "value": "+2", "description": "Increases Potion capacity", "type": "Utility" },
+      { "name": "Barrier Generation", "value": "+28%", "description": "Increases Barrier generation", "type": "Defensive" }
+    ],
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/temerity-icon-diablo-4.webp"
+  },
+  {
+    "id": "11",
+    "name": "Penitent Greaves",
+    "type": "Boots",
+    "category": "Armor",
+    "slot": "Boots",
+    "rarity": "Unique",
+    "requiredLevel": 55,
+    "itemPower": 720,
+    "description": "Boots worn by those who walk the path of atonement, leaving frost in their wake.",
+    "affixes": [
+      { "name": "Movement Speed", "value": "+15%", "description": "Increases Movement Speed", "type": "Utility" },
+      { "name": "Chill and Freeze Duration", "value": "+40%", "description": "Increases Chill and Freeze duration", "type": "Utility" },
+      { "name": "Evade Charges", "value": "+1", "description": "Gain additional Evade charge", "type": "Utility" },
+      { "name": "Cold Resistance", "value": "+30%", "description": "Increases Cold Resistance", "type": "Defensive" }
+    ],
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/penitent-greaves-icon-diablo-4.webp"
+  },
+  {
+    "id": "12",
+    "name": "Mother's Embrace",
     "type": "Ring",
+    "category": "Armor",
+    "slot": "Ring",
+    "rarity": "Unique",
+    "requiredLevel": 70,
+    "itemPower": 800,
+    "description": "A mother's love transcends death. This ring carries that eternal protection.",
+    "affixes": [
+      { "name": "Maximum Life", "value": "+2100", "description": "Increases maximum Life", "type": "Defensive" },
+      { "name": "Life Regeneration", "value": "+850/s", "description": "Increases Life regeneration per second", "type": "Defensive" },
+      { "name": "Thorns", "value": "+1800", "description": "Reflects damage to attackers", "type": "Defensive" },
+      { "name": "Crowd Control Duration", "value": "-20%", "description": "Reduces Crowd Control duration on you", "type": "Defensive" }
+    ],
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/mothers-embrace-icon-diablo-4.webp"
+  },
+  {
+    "id": "13",
+    "name": "Ramaladni's Magnum Opus",
+    "type": "Ring",
+    "category": "Armor",
+    "slot": "Ring",
+    "rarity": "Unique",
+    "requiredLevel": 73,
+    "itemPower": 815,
+    "description": "The master craftsman's greatest creation. Skills cost no resource but have increased cooldowns.",
+    "affixes": [
+      { "name": "Cooldown Reduction", "value": "-30%", "description": "Increases cooldowns", "type": "Utility" },
+      { "name": "Critical Strike Damage", "value": "+60%", "description": "Increases Critical Strike Damage", "type": "Offensive" },
+      { "name": "Skill Damage", "value": "+45%", "description": "Increases all Skill damage", "type": "Offensive" },
+      { "name": "Resource Cost", "value": "-100%", "description": "Skills cost no resource", "type": "Resource" }
+    ],
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/ramaladnis-magnum-opus-icon-diablo-4.webp"
+  },
+  {
+    "id": "14",
+    "name": "Frostburn",
+    "type": "Gloves",
+    "category": "Armor",
+    "slot": "Gloves",
+    "rarity": "Unique",
+    "requiredLevel": 48,
+    "itemPower": 680,
+    "description": "Eternal winter's essence captured in gloves. Enemies touched by them feel the cold embrace of death.",
+    "affixes": [
+      { "name": "Cold Damage", "value": "+42%", "description": "Increases Cold damage dealt", "type": "Offensive" },
+      { "name": "Lucky Hit: Freeze", "value": "18%", "description": "Lucky Hit chance to Freeze enemies", "type": "Utility" },
+      { "name": "Freeze Duration", "value": "+35%", "description": "Increases Freeze duration", "type": "Utility" },
+      { "name": "Cold Skill Ranks", "value": "+2", "description": "Increases Cold Skill ranks", "type": "Offensive" }
+    ],
+    "class": ["Sorcerer", "Rogue"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/frostburn-icon-diablo-4.webp"
+  },
+  {
+    "id": "15",
+    "name": "Tibault's Will",
+    "type": "Pants",
+    "category": "Armor",
+    "slot": "Pants",
     "rarity": "Unique",
     "requiredLevel": 65,
-    "itemPower": 750,
-    "description": "They say this ring holds the power of the void itself, granting its wearer mastery over core skills and resource generation.",
+    "itemPower": 770,
+    "description": "Pants imbued with Tibault's indomitable will. The wearer becomes unstoppable.",
     "affixes": [
-      {
-        "name": "Core Skill Damage",
-        "value": "+40%",
-        "description": "Increases Core Skill damage"
-      },
-      {
-        "name": "Resource Cost Reduction",
-        "value": "30%",
-        "description": "Reduces resource cost of skills"
-      },
-      {
-        "name": "Maximum Resource",
-        "value": "+20",
-        "description": "Increases maximum resource"
-      }
+      { "name": "Unstoppable Duration", "value": "+45%", "description": "Increases Unstoppable duration", "type": "Utility" },
+      { "name": "Maximum Life", "value": "+2200", "description": "Increases maximum Life", "type": "Defensive" },
+      { "name": "Movement Speed", "value": "+18%", "description": "Increases Movement Speed while Unstoppable", "type": "Utility" },
+      { "name": "Damage Reduction", "value": "12%", "description": "Reduces damage taken", "type": "Defensive" }
     ],
-    "class": ["All Classes"]
+    "class": ["All Classes"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/tibaults-will-icon-diablo-4.webp"
+  },
+  {
+    "id": "16",
+    "name": "The Butcher's Cleaver",
+    "type": "Axe",
+    "category": "Weapons",
+    "slot": "One-Hand",
+    "rarity": "Unique",
+    "requiredLevel": 50,
+    "itemPower": 710,
+    "description": "Fresh meat! The Butcher's infamous weapon, dripping with the blood of countless victims.",
+    "affixes": [
+      { "name": "Critical Strike Damage", "value": "+58%", "description": "Increases Critical Strike Damage", "type": "Offensive" },
+      { "name": "Lucky Hit: Fear", "value": "15%", "description": "Lucky Hit chance to Fear enemies", "type": "Utility" },
+      { "name": "Bleed Damage", "value": "+48%", "description": "Increases Bleeding damage", "type": "Offensive" },
+      { "name": "Attack Speed", "value": "+14%", "description": "Increases Attack Speed", "type": "Offensive" }
+    ],
+    "class": ["Barbarian", "Necromancer"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/butchers-cleaver-icon-diablo-4.webp"
+  },
+  {
+    "id": "17",
+    "name": "Skullbreaker",
+    "type": "Mace",
+    "category": "Weapons",
+    "slot": "One-Hand",
+    "rarity": "Unique",
+    "requiredLevel": 58,
+    "itemPower": 745,
+    "description": "A brutal mace designed to shatter bones and crush spirits. Each swing echoes with the screams of the fallen.",
+    "affixes": [
+      { "name": "Overpower Damage", "value": "+85%", "description": "Increases Overpower damage", "type": "Offensive" },
+      { "name": "Stun Duration", "value": "+38%", "description": "Increases Stun duration", "type": "Utility" },
+      { "name": "Critical Strike Chance against Stunned", "value": "+25%", "description": "Increases Critical Strike Chance against Stunned enemies", "type": "Offensive" },
+      { "name": "Lucky Hit: Stun", "value": "12%", "description": "Lucky Hit chance to Stun", "type": "Utility" }
+    ],
+    "class": ["Barbarian", "Paladin"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/skullbreaker-icon-diablo-4.webp"
+  },
+  {
+    "id": "18",
+    "name": "Soulbrand",
+    "type": "Amulet",
+    "category": "Armor",
+    "slot": "Amulet",
+    "rarity": "Unique",
+    "requiredLevel": 67,
+    "itemPower": 785,
+    "description": "An amulet that brands the soul, linking life and death in an eternal pact.",
+    "affixes": [
+      { "name": "Maximum Life", "value": "+2600", "description": "Increases maximum Life", "type": "Defensive" },
+      { "name": "Life on Kill", "value": "+850", "description": "Gain Life when you kill an enemy", "type": "Defensive" },
+      { "name": "Shadow Damage", "value": "+38%", "description": "Increases Shadow damage", "type": "Offensive" },
+      { "name": "Essence Generation", "value": "+12", "description": "Increases Essence generation", "type": "Resource" }
+    ],
+    "class": ["Necromancer"],
+    "iconUrl": "https://d4builds.gg/wp-content/uploads/2023/07/soulbrand-icon-diablo-4.webp"
   }
 ]

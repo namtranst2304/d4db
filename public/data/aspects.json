@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "name": "Edgemaster's Aspect",
+    "type": "Offensive",
+    "description": "Skills deal up to 10% increased damage based on your available Primary Resource when cast, receiving the maximum benefit while you have full Primary Resource.",
+    "class": ["All Classes"],
+    "dungeonLocation": "Oldstones - Scosglen",
+    "iconUrl": "/images/aspects/edgemaster.svg"
+  },
+  {
+    "id": "2",
+    "name": "Aspect of Disobedience",
+    "type": "Defensive",
+    "description": "You gain 0.25% increased Armor for 4 seconds when you deal any form of damage, stacking up to 25%.",
+    "class": ["All Classes"],
+    "dungeonLocation": "Halls of the Damned - Kehjistan",
+    "iconUrl": "/images/aspects/disobedience.svg"
+  },
+  {
+    "id": "3",
+    "name": "Ghostwalker Aspect",
+    "type": "Mobility",
+    "description": "While Unstoppable and for 4 seconds after, you gain 10% increased Movement Speed and can move freely through enemies.",
+    "class": ["All Classes"],
+    "dungeonLocation": "Broken Bulwark - Scosglen",
+    "iconUrl": "/images/aspects/ghostwalker.svg"
+  },
+  {
+    "id": "4",
+    "name": "Aspect of the Umbral",
+    "type": "Resource",
+    "description": "Restore 1 of your Primary Resource when you Crowd Control an enemy.",
+    "class": ["All Classes"],
+    "dungeonLocation": "Champion's Demise - Dry Steppes",
+    "iconUrl": "/images/aspects/umbral.svg"
+  },
+  {
+    "id": "5",
+    "name": "Aspect of Ancestral Force",
+    "type": "Offensive",
+    "description": "Hammer of the Ancients quakes outwards, dealing 32% of its damage to enemies.",
+    "class": ["Barbarian"],
+    "dungeonLocation": "Sunken Ruins - Scosglen",
+    "iconUrl": "/images/aspects/ancestral-force.svg"
+  },
+  {
+    "id": "6",
+    "name": "Aspect of Berserk Ripping",
+    "type": "Offensive",
+    "description": "Whenever you deal direct damage while Berserking, inflict 20% of the Base damage dealt as additional Bleeding damage over 5 seconds.",
+    "class": ["Barbarian"],
+    "dungeonLocation": "Mournfield - Dry Steppes",
+    "iconUrl": "/images/aspects/berserk-ripping.svg"
+  },
+  {
+    "id": "7",
+    "name": "Crashstone Aspect",
+    "type": "Defensive",
+    "description": "Earth Skills deal 40% more Critical Strike Damage to Crowd Controlled enemies.",
+    "class": ["Druid"],
+    "dungeonLocation": "Stockades - Scosglen",
+    "iconUrl": "/images/aspects/crashstone.svg"
+  },
+  {
+    "id": "8",
+    "name": "Shepherd's Aspect",
+    "type": "Offensive",
+    "description": "Core Skills deal an additional 6% damage for each active Companion.",
+    "class": ["Druid"],
+    "dungeonLocation": "Betrayer's Row - Dry Steppes",
+    "iconUrl": "/images/aspects/shepherd.svg"
+  },
+  {
+    "id": "9",
+    "name": "Blood-bathed Aspect",
+    "type": "Defensive",
+    "description": "Blood Surge's nova echoes again after a short delay, dealing 70% less damage.",
+    "class": ["Necromancer"],
+    "dungeonLocation": "Hoarfrost Demise - Fractured Peaks",
+    "iconUrl": "/images/aspects/blood-bathed.svg"
+  },
+  {
+    "id": "10",
+    "name": "Aspect of Explosive Mist",
+    "type": "Offensive",
+    "description": "Blood Mist triggers Corpse Explosion on surrounding Corpses. When Blood Mist detonates a Corpse, its cooldown is reduced by 0.5 seconds.",
+    "class": ["Necromancer"],
+    "dungeonLocation": "Derelict Lodge - Fractured Peaks",
+    "iconUrl": "/images/aspects/explosive-mist.svg"
+  },
+  {
+    "id": "11",
+    "name": "Bladedancer's Aspect",
+    "type": "Offensive",
+    "description": "Twisting Blades orbit for a short time after they return to you, dealing 10% of Twisting Blades' return damage per hit. Based on the distance the blades returned, the orbit damage increases up to 20% of the return damage.",
+    "class": ["Rogue"],
+    "dungeonLocation": "Jalal's Vigil - Scosglen",
+    "iconUrl": "/images/aspects/bladedancer.svg"
+  },
+  {
+    "id": "12",
+    "name": "Opportunist's Aspect",
+    "type": "Offensive",
+    "description": "When you break Stealth with an attack, you drop a cluster of exploding Stun Grenades around your location that deal 40% total Physical damage and Stun enemies for 0.50 seconds.",
+    "class": ["Rogue"],
+    "dungeonLocation": "Kor Dragan Barracks - Fractured Peaks",
+    "iconUrl": "/images/aspects/opportunist.svg"
+  },
+  {
+    "id": "13",
+    "name": "Aspect of Control",
+    "type": "Offensive",
+    "description": "You deal 30% more damage to Immobilized, Stunned, or Frozen enemies.",
+    "class": ["Sorcerer"],
+    "dungeonLocation": "Sunken Library - Kehjistan",
+    "iconUrl": "/images/aspects/control.svg"
+  },
+  {
+    "id": "14",
+    "name": "Aspect of Three Curses",
+    "type": "Offensive",
+    "description": "Meteor deals 30% increased Critical Strike Damage against Healthy targets.",
+    "class": ["Sorcerer"],
+    "dungeonLocation": "Ruins of Eridu - Hawezar",
+    "iconUrl": "/images/aspects/three-curses.svg"
+  },
+  {
+    "id": "15",
+    "name": "Aspect of Sacred Resonance",
+    "type": "Offensive",
+    "description": "Sacred Wrath gains additional pulses and deals 12% increased damage.",
+    "class": ["Paladin"],
+    "dungeonLocation": "Sanctum of Light - Kehjistan",
+    "iconUrl": "/images/aspects/sacred-resonance.svg"
+  },
+  {
+    "id": "16",
+    "name": "Centipede Aspect",
+    "type": "Offensive",
+    "description": "The Centipede Spirit Guardian poisons enemies, dealing 50% of its damage over 6 seconds.",
+    "class": ["Spiritborn"],
+    "dungeonLocation": "Toxic Hollow - Nahantu",
+    "iconUrl": "/images/aspects/centipede.svg"
+  }
+]

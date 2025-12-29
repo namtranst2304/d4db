@@ -1,0 +1,313 @@
+[
+  {
+    "id": "1",
+    "name": "Bash",
+    "class": "Barbarian",
+    "category": "Basic",
+    "description": "Bash the enemy with your weapon, dealing 33% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds.",
+    "damage": "33%",
+    "resourceType": "Fury",
+    "enhancements": [
+      {
+        "name": "Enhanced Bash",
+        "description": "Damaging a Stunned enemy with Bash generates 3 additional Fury."
+      },
+      {
+        "name": "Battle Bash",
+        "description": "Damaging a Stunned enemy with Bash grants you 20% increased damage for 5 seconds."
+      },
+      {
+        "name": "Combat Bash",
+        "description": "After critically striking 4 times with Bash, your next Core or Weapon Mastery Skill will Overpower."
+      }
+    ],
+    "iconUrl": "/images/skills/bash.svg"
+  },
+  {
+    "id": "2",
+    "name": "Hammer of the Ancients",
+    "class": "Barbarian",
+    "category": "Core",
+    "description": "Slam your hammer down with the fury of the Ancients, dealing 60% damage to a concentrated area.",
+    "damage": "60%",
+    "cooldown": 0,
+    "resourceCost": 35,
+    "resourceType": "Fury",
+    "enhancements": [
+      {
+        "name": "Enhanced Hammer of the Ancients",
+        "description": "Gain 1% increased Critical Strike Chance per point of Fury spent on Hammer of the Ancients, up to 10%."
+      },
+      {
+        "name": "Furious Hammer of the Ancients",
+        "description": "Hammer of the Ancients deals 10% increased damage for each 5 Fury it costs."
+      },
+      {
+        "name": "Violent Hammer of the Ancients",
+        "description": "When Hammer of the Ancients Overpowers, the Overpowered damage dealt is increased by 30% and enemies are Stunned for 2 seconds."
+      }
+    ],
+    "iconUrl": "/images/skills/hammer-of-the-ancients.svg"
+  },
+  {
+    "id": "3",
+    "name": "Wrath of the Berserker",
+    "class": "Barbarian",
+    "category": "Ultimate",
+    "description": "Explode into a rage, granting Berserking and Unstoppable for 5 seconds. For the next 10 seconds, dealing direct damage with Basic Skills grants Berserking for 5 seconds.",
+    "cooldown": 60,
+    "enhancements": [
+      {
+        "name": "Prime Wrath of the Berserker",
+        "description": "While Wrath of the Berserker is active, every 50 Fury spent increases Berserk's duration by 1 second."
+      },
+      {
+        "name": "Supreme Wrath of the Berserker",
+        "description": "While Wrath of the Berserker is active, every 25 Fury spent increases the damage bonus of Berserk by 3%."
+      }
+    ],
+    "iconUrl": "/images/skills/wrath-of-the-berserker.svg"
+  },
+  {
+    "id": "4",
+    "name": "Claw",
+    "class": "Druid",
+    "category": "Basic",
+    "description": "Shapeshift into a Werewolf and claw at an enemy for 28% damage.",
+    "damage": "28%",
+    "resourceType": "Spirit",
+    "enhancements": [
+      {
+        "name": "Enhanced Claw",
+        "description": "Claw's Attack Speed is increased by 10%."
+      },
+      {
+        "name": "Fierce Claw",
+        "description": "Claw's damage is increased by 20% against Poisoned enemies."
+      },
+      {
+        "name": "Wild Claw",
+        "description": "Claw applies 2% Poisoning for 6 seconds."
+      }
+    ],
+    "iconUrl": "/images/skills/claw.svg"
+  },
+  {
+    "id": "5",
+    "name": "Pulverize",
+    "class": "Druid",
+    "category": "Core",
+    "description": "Shapeshift into a Werebear and slam the ground, dealing 70% damage to surrounding enemies.",
+    "damage": "70%",
+    "resourceCost": 35,
+    "resourceType": "Spirit",
+    "enhancements": [
+      {
+        "name": "Enhanced Pulverize",
+        "description": "Your next Pulverize will Overpower every 12 seconds while you remain Healthy."
+      },
+      {
+        "name": "Primal Pulverize",
+        "description": "Pulverize's damage is increased by 50% against Stunned, Immobilized, or Knocked Back enemies."
+      },
+      {
+        "name": "Raging Pulverize",
+        "description": "Your next Pulverize deals 30% increased damage and heals you for 2% of your Maximum Life if an enemy is killed with Pulverize."
+      }
+    ],
+    "iconUrl": "/images/skills/pulverize.svg"
+  },
+  {
+    "id": "6",
+    "name": "Bone Spear",
+    "class": "Necromancer",
+    "category": "Core",
+    "description": "Conjure a bone spear from the ground, dealing 85% damage and piercing through enemies.",
+    "damage": "85%",
+    "resourceCost": 25,
+    "resourceType": "Essence",
+    "enhancements": [
+      {
+        "name": "Enhanced Bone Spear",
+        "description": "Bone Spear makes the first enemy hit Vulnerable for 3 seconds."
+      },
+      {
+        "name": "Paranormal Bone Spear",
+        "description": "Bone Spear has a 5% increased Critical Strike Chance. If Bone Spear's primary projectile Critically Strikes, it fires 2 additional bone shards upon impact."
+      },
+      {
+        "name": "Supernatural Bone Spear",
+        "description": "Bone Spear breaks into 3 shards when it is destroyed, dealing 25% reduced damage."
+      }
+    ],
+    "iconUrl": "/images/skills/bone-spear.svg"
+  },
+  {
+    "id": "7",
+    "name": "Army of the Dead",
+    "class": "Necromancer",
+    "category": "Ultimate",
+    "description": "Call forth the deep buried dead. Volatile Skeletons emerge over the next 7 seconds that explode when around enemies, dealing 30% damage.",
+    "damage": "30%",
+    "cooldown": 90,
+    "enhancements": [
+      {
+        "name": "Prime Army of the Dead",
+        "description": "Army of the Dead also summons an additional skeleton that Taunts and hits enemies for 2 seconds."
+      },
+      {
+        "name": "Supreme Army of the Dead",
+        "description": "Your Army of the Dead Skeletons leave behind desecrated ground that deals 20% Shadow damage over 7 seconds."
+      }
+    ],
+    "iconUrl": "/images/skills/army-of-the-dead.svg"
+  },
+  {
+    "id": "8",
+    "name": "Puncture",
+    "class": "Rogue",
+    "category": "Basic",
+    "description": "Throw blades a short distance, dealing 21% damage. Every 3rd cast Slows enemies by 20% for 2 seconds.",
+    "damage": "21%",
+    "resourceType": "Energy",
+    "enhancements": [
+      {
+        "name": "Enhanced Puncture",
+        "description": "Gain 2 Energy per enemy hit by Puncture."
+      },
+      {
+        "name": "Fundamental Puncture",
+        "description": "Puncture has a 30% chance to make enemies Vulnerable for 2 seconds."
+      },
+      {
+        "name": "Primary Puncture",
+        "description": "Every 3rd cast of Puncture will also ricochet to an additional enemy."
+      }
+    ],
+    "iconUrl": "/images/skills/puncture.svg"
+  },
+  {
+    "id": "9",
+    "name": "Twisting Blades",
+    "class": "Rogue",
+    "category": "Core",
+    "description": "Impale an enemy with your blades, dealing 57% damage and making them take 8% increased damage from you while impaled. After 1.5 seconds the blades return to you, piercing enemies for 70% damage.",
+    "damage": "57%",
+    "resourceCost": 30,
+    "resourceType": "Energy",
+    "enhancements": [
+      {
+        "name": "Enhanced Twisting Blades",
+        "description": "Twisting Blades deals 30% increased damage when returning."
+      },
+      {
+        "name": "Advanced Twisting Blades",
+        "description": "When your Twisting Blades return to you, your active Cooldowns are reduced by 0.25 seconds per enemy they passed through, up to 3 seconds."
+      },
+      {
+        "name": "Improved Twisting Blades",
+        "description": "Enemies are Dazed while impaled with Twisting Blades."
+      }
+    ],
+    "iconUrl": "/images/skills/twisting-blades.svg"
+  },
+  {
+    "id": "10",
+    "name": "Fire Bolt",
+    "class": "Sorcerer",
+    "category": "Basic",
+    "description": "Hurl a flaming bolt, dealing 10% damage and Burning for 40% over 8 seconds.",
+    "damage": "10%",
+    "resourceType": "Mana",
+    "enhancements": [
+      {
+        "name": "Enhanced Fire Bolt",
+        "description": "Fire Bolt pierces through Burning enemies."
+      },
+      {
+        "name": "Flickering Fire Bolt",
+        "description": "Fire Bolt generates 2 Mana when hitting a Burning enemy."
+      },
+      {
+        "name": "Glinting Fire Bolt",
+        "description": "Critical Strikes with Fire Bolt increase the Burning damage you deal to the enemy by 20% for 4 seconds."
+      }
+    ],
+    "iconUrl": "/images/skills/fire-bolt.svg"
+  },
+  {
+    "id": "11",
+    "name": "Fireball",
+    "class": "Sorcerer",
+    "category": "Core",
+    "description": "Hurl a ball of fire, dealing 60% damage to surrounding enemies.",
+    "damage": "60%",
+    "resourceCost": 35,
+    "resourceType": "Mana",
+    "enhancements": [
+      {
+        "name": "Enhanced Fireball",
+        "description": "Fireball's radius is increased by 50%."
+      },
+      {
+        "name": "Greater Fireball",
+        "description": "Fireballs that hit at least 3 enemies explode, dealing 50% increased damage."
+      },
+      {
+        "name": "Destructive Fireball",
+        "description": "Your Burning enemies take 10% increased Burning damage per second from you, up to 50%."
+      }
+    ],
+    "iconUrl": "/images/skills/fireball.svg"
+  },
+  {
+    "id": "12",
+    "name": "Sacred Wrath",
+    "class": "Paladin",
+    "category": "Core",
+    "description": "Channel holy energy that pulses forward, dealing 45% damage per pulse to all enemies in its path.",
+    "damage": "45%",
+    "resourceCost": 25,
+    "resourceType": "Fervor",
+    "enhancements": [
+      {
+        "name": "Enhanced Sacred Wrath",
+        "description": "Sacred Wrath increases your damage by 2% per enemy hit, up to 10%."
+      },
+      {
+        "name": "Holy Sacred Wrath",
+        "description": "Each pulse of Sacred Wrath has a 15% chance to make enemies Vulnerable for 3 seconds."
+      },
+      {
+        "name": "Divine Sacred Wrath",
+        "description": "Enemies hit by Sacred Wrath have a 30% chance to drop a health globe."
+      }
+    ],
+    "iconUrl": "/images/skills/sacred-wrath.svg"
+  },
+  {
+    "id": "13",
+    "name": "Touch of Death",
+    "class": "Spiritborn",
+    "category": "Core",
+    "description": "Strike enemies with deadly precision, dealing 75% damage and applying a Mark. Marked enemies take 15% increased damage from you.",
+    "damage": "75%",
+    "resourceCost": 30,
+    "resourceType": "Vigor",
+    "enhancements": [
+      {
+        "name": "Enhanced Touch of Death",
+        "description": "Touch of Death's Mark lasts 5 seconds longer."
+      },
+      {
+        "name": "Vicious Touch of Death",
+        "description": "Enemies killed while Marked explode, dealing 50% of the damage to nearby enemies."
+      },
+      {
+        "name": "Lethal Touch of Death",
+        "description": "Touch of Death has a 25% increased Critical Strike Chance against Marked enemies."
+      }
+    ],
+    "iconUrl": "/images/skills/touch-of-death.svg"
+  }
+]

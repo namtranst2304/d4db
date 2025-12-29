@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
-import { useTheme } from '@/lib/utils/theme.tsx'
+import { useTheme } from '@/lib/utils/theme'
 import Button from './ui/Button'
 
 export default function Navbar() {
@@ -31,6 +31,12 @@ export default function Navbar() {
                                 className="text-sm font-medium text-gray-700 transition-colors hover:text-primary-600 dark:text-dark-800 dark:hover:text-primary-500"
                             >
                                 Home
+                            </Link>
+                            <Link
+                                href="/database"
+                                className="text-sm font-medium text-gray-700 transition-colors hover:text-primary-600 dark:text-dark-800 dark:hover:text-primary-500"
+                            >
+                                Database
                             </Link>
                             <Link
                                 href="/dashboard"
@@ -93,6 +99,9 @@ function NavbarContent() {
                     <div className="hidden items-center space-x-8 md:flex">
                         <Link href="/" className="nav-link">
                             Home
+                        </Link>
+                        <Link href="/database" className="nav-link">
+                            Database
                         </Link>
                         <Link href="/dashboard" className="nav-link">
                             Dashboard

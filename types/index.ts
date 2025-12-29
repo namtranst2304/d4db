@@ -19,19 +19,110 @@ export interface D4Item {
   id: string
   name: string
   type: string
-  rarity: 'Common' | 'Magic' | 'Rare' | 'Legendary' | 'Unique'
+  category: 'Weapons' | 'Armor' | 'Socketable' | 'Consumable' | 'Material'
+  rarity: 'Common' | 'Magic' | 'Rare' | 'Legendary' | 'Unique' | 'Mythic'
   requiredLevel: number
   itemPower: number
   description: string
   affixes: D4Affix[]
   iconUrl?: string
   class?: string[]
+  slot?: string // e.g., 'Helm', 'Chest Armor', 'Ring', 'Amulet'
 }
 
 export interface D4Affix {
   name: string
   value: string
   description: string
+  type?: 'Offensive' | 'Defensive' | 'Utility' | 'Resource'
+}
+
+// Diablo 4 Aspect types
+export interface D4Aspect {
+  id: string
+  name: string
+  type: 'Offensive' | 'Defensive' | 'Utility' | 'Mobility' | 'Resource'
+  description: string
+  class: string[] // ['Barbarian', 'Druid', etc.] or ['All Classes']
+  dungeonLocation?: string
+  iconUrl?: string
+}
+
+// Diablo 4 Boss types
+export interface D4Boss {
+  id: string
+  name: string
+  type: 'World Boss' | 'Lair Boss' | 'Pinnacle Boss'
+  tier?: 'Initiate' | 'Greater' | 'Exalted' // For Lair Bosses
+  location?: string
+  summoningMaterials?: D4SummoningMaterial[]
+  drops?: D4BossDrop[]
+  description?: string
+  iconUrl?: string
+  guideUrl?: string
+}
+
+export interface D4SummoningMaterial {
+  name: string
+  quantity: number
+  source?: string
+}
+
+export interface D4BossDrop {
+  name: string
+  type: 'Unique' | 'Mythic' | 'Rune' | 'Material' | 'Other'
+  class?: string[]
+}
+
+// Diablo 4 Skill types
+export interface D4Skill {
+  id: string
+  name: string
+  class: 'Barbarian' | 'Druid' | 'Necromancer' | 'Paladin' | 'Rogue' | 'Sorcerer' | 'Spiritborn'
+  category: 'Basic' | 'Core' | 'Defensive' | 'Brawling' | 'Weapon Mastery' | 'Ultimate' | 'Key Passive' | 'Spirit' | 'Companion' | 'Wrath'
+  description: string
+  damage?: string
+  cooldown?: number
+  resourceCost?: number
+  resourceType?: string
+  enhancements?: D4SkillEnhancement[]
+  iconUrl?: string
+}
+
+export interface D4SkillEnhancement {
+  name: string
+  description: string
+}
+
+// Diablo 4 Paragon Node types
+export interface D4ParagonNode {
+  id: string
+  name: string
+  board: string
+  type: 'Normal' | 'Magic' | 'Rare' | 'Legendary' | 'Glyph Socket'
+  bonuses: D4ParagonBonus[]
+  position?: { x: number; y: number }
+}
+
+export interface D4ParagonBonus {
+  stat: string
+  value: string
+}
+
+// Diablo 4 Build types
+export interface D4Build {
+  id: string
+  name: string
+  class: 'Barbarian' | 'Druid' | 'Necromancer' | 'Paladin' | 'Rogue' | 'Sorcerer' | 'Spiritborn'
+  season?: number
+  description: string
+  skills: string[] // skill IDs
+  aspects: string[] // aspect IDs
+  playstyle: string[]
+  difficulty: 'Easy' | 'Medium' | 'Hard'
+  author?: string
+  rating?: number
+  updatedAt: string
 }
 
 // API Response types

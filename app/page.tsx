@@ -6,25 +6,44 @@ import Button from '@/components/ui/Button'
 import ItemCard from '@/components/ItemCard'
 import { getItems } from '@/lib/services/api'
 import type { D4Item } from '@/types'
+ 
+interface LairBoss {
+  id: string
+  name: string
+  location?: string
+  iconUrl?: string
+  loot: string[]
+}
 
 export default function HomePage() {
   const [items, setItems] = useState<D4Item[]>([])
+  const [lairBosses, setLairBosses] = useState<LairBoss[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    const fetchItems = async () => {
+    const fetchData = async () => {
       try {
-        const response = await getItems({ limit: 6 })
-        setItems(response.data)
+        setIsLoading(true)
+        const [itemsRes, bossRes] = await Promise.all([
+          fetch('/data/items.json'),
+          fetch('/data/lair-bosses.json'),
+        ])
+
+        const allItems: D4Item[] = await itemsRes.json()
+        const bosses: LairBoss[] = await bossRes.json()
+
+        setItems(allItems)
+        setLairBosses(bosses)
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load items')
+        setError(err instanceof Error ? err.message : 'Failed to load data')
+        console.error('Error loading data:', err)
       } finally {
         setIsLoading(false)
       }
     }
 
-    fetchItems()
+    fetchData()
   }, [])
 
   return (
@@ -41,14 +60,19 @@ export default function HomePage() {
               the vast collection of Diablo 4 gear.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <Link href="#items">
+              <Link href="/database">
                 <Button variant="primary" size="lg">
-                  Browse Items
+                  🗄️ Explore Database
+                </Button>
+              </Link>
+              <Link href="/database/items">
+                <Button variant="outline" size="lg" className="text-white border-white hover:bg-white/10">
+                  ⚔️ Browse Items
                 </Button>
               </Link>
               <Link href="/dashboard">
                 <Button variant="outline" size="lg" className="text-white border-white hover:bg-white/10">
-                  Go to Dashboard
+                  📊 Dashboard
                 </Button>
               </Link>
             </div>
@@ -58,6 +82,57 @@ export default function HomePage() {
         {/* Decorative gradient orbs */}
         <div className="absolute -top-24 -left-24 h-96 w-96 rounded-full bg-primary-600 opacity-20 blur-3xl"></div>
         <div className="absolute -bottom-24 -right-24 h-96 w-96 rounded-full bg-purple-600 opacity-20 blur-3xl"></div>
+      </section>
+
+      {/* Lair Bosses Section */}
+      <section id="lair-bosses" className="py-16 bg-gray-100 dark:bg-dark-100">
+        <div className="container-custom">
+          <div className="mb-8">
+            <h2 className="text-3xl font-bold text-heading">Lair Bosses</h2>
+            <p className="mt-2 text-muted">Latest lair bosses and their loot pools.</p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2">
+            {lairBosses.length === 0 ? (
+              <div className="card text-center">
+                <p className="text-muted">No lair bosses configured. See /public/data/lair-bosses.json</p>
+              </div>
+            ) : (
+              lairBosses.map((boss) => (
+                <div key={boss.id} className="card">
+                  <div className="flex items-center gap-4">
+                    {boss.iconUrl ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={boss.iconUrl} alt={boss.name} className="h-24 w-48 rounded object-cover" />
+                    ) : (
+                      <div className="h-24 w-48 rounded bg-gray-300" />
+                    )}
+                    <div>
+                      <h3 className="text-xl font-bold">{boss.name}</h3>
+                      {boss.location && <p className="text-sm text-muted">{boss.location}</p>}
+                    </div>
+                  </div>
+
+                  <div className="mt-6">
+                    <h4 className="text-lg font-semibold">Loot Pool</h4>
+                    <div className="mt-4 grid gap-4 md:grid-cols-3">
+                      {boss.loot.map((itemId) => {
+                        const item = items.find((it) => it.id === itemId)
+                        return item ? (
+                          <ItemCard key={item.id} item={item} />
+                        ) : (
+                          <div key={itemId} className="card">
+                            <p className="text-sm text-muted">Item {itemId} not found</p>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        </div>
       </section>
 
       {/* Features Section */}
@@ -146,7 +221,7 @@ export default function HomePage() {
       </section>
 
       {/* Items Section */}
-      <section id="items" className="py-16">
+      <section id="items" className="py-16 bg-white dark:bg-dark-100">
         <div className="container-custom">
           <div className="mb-8 flex items-center justify-between">
             <div>
@@ -154,9 +229,15 @@ export default function HomePage() {
                 Featured Items
               </h2>
               <p className="mt-2 text-muted">
-                Explore the latest legendary and unique items
+                Explore mythic uniques and legendary items
               </p>
             </div>
+            <Link href="/database/items" className="text-primary-600 hover:text-primary-700 font-semibold flex items-center gap-2">
+              View All Items
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
 
           {isLoading ? (

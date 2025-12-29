@@ -8,7 +8,12 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "scrape": "tsx scripts/run-scraper.ts",
+    "scrape:items": "tsx scripts/run-scraper.ts items",
+    "scrape:skills": "tsx scripts/run-scraper.ts skills",
+    "scrape:aspects": "tsx scripts/run-scraper.ts aspects",
+    "scrape:all": "tsx scripts/run-scraper.ts --all"
   },
   "dependencies": {
     "next": "^14.2.0",
@@ -28,7 +33,9 @@
     "eslint-plugin-react": "^7.33.2",
     "postcss": "^8.4.33",
     "prettier": "^3.2.4",
+    "puppeteer": "^24.34.0",
     "tailwindcss": "^3.4.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.3.3"
   }
 }
