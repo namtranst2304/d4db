@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { ThemeProvider } from '@/lib/utils/theme.tsx'
-import { AuthProvider } from '@/lib/hooks/useAuth.tsx'
+import { ThemeProvider } from '@/lib/utils/theme'
+import { AuthProvider } from '@/lib/hooks/useAuth'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 

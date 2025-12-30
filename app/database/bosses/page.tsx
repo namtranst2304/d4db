@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import { D4Boss } from '@/types'
 import { useDataFetch } from '@/lib/hooks/useDataFetch'
-import BossCard from '@/components/BossCard'
+import { BossCard } from '@/components/features/bosses'
 
 type BossType = 'All' | 'World Boss' | 'Lair Boss' | 'Pinnacle Boss'
 type BossTier = 'All' | 'Initiate' | 'Greater' | 'Exalted'

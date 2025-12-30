@@ -1,47 +1,55 @@
 'use client'
 
-import type { D4Boss } from '@/types'
+import type { D4Boss, D4BossTier, D4BossType } from '@/types'
+import { BOSS_TIER_COLORS, BOSS_TYPE_COLORS } from '@/lib/constants/colors'
+import { Badge } from '@/components/common'
 
 interface BossCardProps {
     boss: D4Boss
 }
 
 export default function BossCard({ boss }: BossCardProps) {
-    const tierColors = {
-        Initiate: 'text-green-400 border-green-500 bg-green-500/10',
-        Greater: 'text-purple-400 border-purple-500 bg-purple-500/10',
-        Exalted: 'text-red-400 border-red-500 bg-red-500/10',
+    const tierColors = boss.tier ? BOSS_TIER_COLORS[boss.tier as D4BossTier] : null
+    const typeColors = BOSS_TYPE_COLORS[boss.type as D4BossType]
+    const primaryColors = tierColors || typeColors
+
+    const getBadgeColor = (type: D4BossType): 'yellow' | 'orange' | 'red' => {
+        switch (type) {
+            case 'World Boss': return 'yellow'
+            case 'Lair Boss': return 'orange'
+            case 'Pinnacle Boss': return 'red'
+        }
     }
 
-    const typeColors = {
-        'World Boss': 'text-yellow-400 border-yellow-500 bg-yellow-500/10',
-        'Lair Boss': 'text-orange-400 border-orange-500 bg-orange-500/10',
-        'Pinnacle Boss': 'text-red-500 border-red-600 bg-red-500/10',
+    const getTierBadgeColor = (tier: D4BossTier): 'green' | 'purple' | 'red' => {
+        switch (tier) {
+            case 'Initiate': return 'green'
+            case 'Greater': return 'purple'
+            case 'Exalted': return 'red'
+        }
     }
-
-    const tierColor = boss.tier ? tierColors[boss.tier] : typeColors[boss.type]
 
     return (
         <a
             href={boss.guideUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className={`block bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border-2 hover:scale-105 transition-all duration-300 cursor-pointer ${tierColor.split(' ')[1]}`}
+            className={`block bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border-2 hover:scale-105 transition-all duration-300 cursor-pointer ${primaryColors.border}`}
         >
             {/* Boss Header */}
             <div className="flex items-start justify-between mb-4">
                 <div className="flex-1">
-                    <h3 className={`text-xl font-bold mb-1 ${tierColor.split(' ')[0]}`}>
+                    <h3 className={`text-xl font-bold mb-1 ${primaryColors.text}`}>
                         {boss.name}
                     </h3>
                     <div className="flex gap-2 flex-wrap">
-                        <span className={`text-xs px-2 py-1 rounded-full border ${typeColors[boss.type]}`}>
+                        <Badge color={getBadgeColor(boss.type)} variant="outline">
                             {boss.type}
-                        </span>
+                        </Badge>
                         {boss.tier && (
-                            <span className={`text-xs px-2 py-1 rounded-full border ${tierColors[boss.tier]}`}>
+                            <Badge color={getTierBadgeColor(boss.tier)} variant="outline">
                                 {boss.tier}
-                            </span>
+                            </Badge>
                         )}
                     </div>
                 </div>
@@ -88,12 +96,9 @@ export default function BossCard({ boss }: BossCardProps) {
                     <h4 className="text-gray-400 text-xs uppercase mb-2">Notable Drops</h4>
                     <div className="flex flex-wrap gap-1">
                         {boss.drops.slice(0, 5).map((drop, i) => (
-                            <span
-                                key={i}
-                                className="text-xs px-2 py-1 bg-purple-900/30 border border-purple-700/50 rounded text-purple-300"
-                            >
+                            <Badge key={i} color="purple" size="sm">
                                 {drop.name}
-                            </span>
+                            </Badge>
                         ))}
                         {boss.drops.length > 5 && (
                             <span className="text-xs px-2 py-1 text-gray-500">

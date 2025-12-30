@@ -1,6 +1,32 @@
 // TypeScript types for the application
 
-// User types
+// ============================================
+// Common Union Types
+// ============================================
+
+// Diablo 4 Classes
+export type D4Class = 'Barbarian' | 'Druid' | 'Necromancer' | 'Paladin' | 'Rogue' | 'Sorcerer' | 'Spiritborn'
+
+// Item Rarities
+export type D4Rarity = 'Common' | 'Magic' | 'Rare' | 'Legendary' | 'Unique' | 'Mythic'
+
+// Item Categories
+export type D4ItemCategory = 'Weapons' | 'Armor' | 'Socketable' | 'Consumable' | 'Material'
+
+// Boss Types and Tiers
+export type D4BossType = 'World Boss' | 'Lair Boss' | 'Pinnacle Boss'
+export type D4BossTier = 'Initiate' | 'Greater' | 'Exalted'
+
+// Aspect Types
+export type D4AspectType = 'Offensive' | 'Defensive' | 'Utility' | 'Mobility' | 'Resource'
+
+// Skill Categories
+export type D4SkillCategory = 'Basic' | 'Core' | 'Defensive' | 'Brawling' | 'Weapon Mastery' | 'Ultimate' | 'Key Passive' | 'Spirit' | 'Companion' | 'Wrath'
+
+// ============================================
+// User Types
+// ============================================
+
 export interface User {
   id: string
   email: string

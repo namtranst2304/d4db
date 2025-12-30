@@ -20,14 +20,14 @@ export default function ItemDetailPage() {
       try {
         setIsLoading(true)
         const response = await fetch('/data/items.json')
-        
+
         if (!response.ok) {
           throw new Error('Failed to fetch items')
         }
-        
+
         const items: D4Item[] = await response.json()
         const foundItem = items.find(i => i.id === itemId && i.name)
-        
+
         if (foundItem) {
           setItem(foundItem)
           setError(null)
@@ -44,13 +44,7 @@ export default function ItemDetailPage() {
     fetchItem()
   }, [itemId])
 
-  const rarityColors = {
-    Common: 'text-gray-500 bg-gray-100 dark:bg-gray-800',
-    Magic: 'text-blue-500 bg-blue-100 dark:bg-blue-900/20',
-    Rare: 'text-yellow-500 bg-yellow-100 dark:bg-yellow-900/20',
-    Legendary: 'text-orange-500 bg-orange-100 dark:bg-orange-900/20',
-    Unique: 'text-purple-500 bg-purple-100 dark:bg-purple-900/20',
-  }
+  // Colors are now provided by getRarityColor utility
 
   if (isLoading) {
     return (
@@ -70,7 +64,7 @@ export default function ItemDetailPage() {
             {error || 'Item not found'}
           </h1>
           <p className="mt-4 text-gray-600 dark:text-dark-700">
-            The item you're looking for doesn't exist or has been removed.
+            The item you&apos;re looking for doesn&apos;t exist or has been removed.
           </p>
           <div className="mt-6">
             <Button onClick={() => router.back()} variant="primary">

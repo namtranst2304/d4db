@@ -1,6 +1,6 @@
 'use client'
 
-import { useAuth } from '@/lib/hooks/useAuth.tsx'
+import { useAuth } from '@/lib/hooks/useAuth'
 
 export default function DashboardPage() {
   const { user } = useAuth()
@@ -95,7 +95,7 @@ export default function DashboardPage() {
           Welcome back, {user?.username}!
         </h2>
         <p className="mt-1 text-muted">
-          Here's an overview of your Diablo 4 collection
+          Here&apos;s an overview of your Diablo 4 collection
         </p>
       </div>
 

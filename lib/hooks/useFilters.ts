@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useMemo } from 'react'
 
 type FilterFn<T> = (item: T, filters: Record<string, any>) => boolean
 

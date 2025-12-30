@@ -1,11 +1,12 @@
 'use client'
 
-import { useAuth } from '@/lib/hooks/useAuth.tsx'
+import { useAuth } from '@/lib/hooks/useAuth'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import Button from '@/components/ui/Button'
 
 export default function DashboardHeader() {
-  const { user, logout } = useAuth()
+  const { user, isAuthenticated, logout } = useAuth()
   const router = useRouter()
 
   const handleLogout = async () => {
@@ -23,19 +24,30 @@ export default function DashboardHeader() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <div className="text-right">
-            <p className="text-sm font-medium text-heading">
-              {user?.username || 'User'}
-            </p>
-            <p className="text-xs text-muted">
-              {user?.email}
-            </p>
-          </div>
-          <Button variant="outline" size="sm" onClick={handleLogout}>
-            Logout
-          </Button>
+          {isAuthenticated && user ? (
+            <>
+              <div className="text-right">
+                <p className="text-sm font-medium text-heading">
+                  {user.username || 'User'}
+                </p>
+                <p className="text-xs text-muted">
+                  {user.email}
+                </p>
+              </div>
+              <Button variant="outline" size="sm" onClick={handleLogout}>
+                Logout
+              </Button>
+            </>
+          ) : (
+            <Link href="/auth/login">
+              <Button variant="primary" size="sm">
+                Login
+              </Button>
+            </Link>
+          )}
         </div>
       </div>
     </header>
   )
 }
+

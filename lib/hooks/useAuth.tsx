@@ -50,7 +50,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     checkAuth()
   }, [])
 
-  const login = async (email: string, password: string) => {
+  const login = async (email: string, _password: string) => {
     try {
       // Mock login - replace with actual API call
       const mockUser: User = {
@@ -75,7 +75,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const register = async (
     email: string,
     username: string,
-    password: string
+    _password: string
   ) => {
     try {
       // Mock register - replace with actual API call
